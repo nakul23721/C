@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main() {
+void main() {
       double first, second, temp;
       printf("Enter first number: ");
       scanf("%lf", &first);
@@ -14,5 +14,5 @@ int main() {
 
       printf("\nAfter swapping, firstNumber = %.2lf\n", first);
       printf("After swapping, secondNumber = %.2lf", second);
-      return 0;
+     
 }
