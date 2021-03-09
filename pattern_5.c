@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() {
+void main()
+{
    int rows, coef = 1, space, i, j;
    printf("Enter the number of rows: ");
    scanf("%d", &rows);
@@ -15,5 +16,4 @@ int main() {
       }
       printf("\n");
    }
-   return 0;
 }
