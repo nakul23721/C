@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main() {
+void main() 
+{
     int n, i;
     float num[100], sum = 0.0, avg;
 
@@ -20,5 +21,4 @@ int main() {
 
     avg = sum / n;
     printf("Average = %.2f", avg);
-    return 0;
 }
