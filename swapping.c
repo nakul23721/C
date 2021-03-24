@@ -1,5 +1,6 @@
 #include<stdio.h>
-void main() {
+void main()
+{
       double first, second, temp;
       printf("Enter first number: ");
       scanf("%lf", &first);
