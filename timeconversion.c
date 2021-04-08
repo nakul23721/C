@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<string.h>
-int main()
+
+void main()
 {
     int hh, mm, ss;
     char a[3];
@@ -12,10 +13,7 @@ int main()
     scanf("%d", &ss);
     printf("Enter string 'am' or 'pm' \t");
     scanf("%s", &a);
-    /*
-     * user is allowed to enter time only in 12-hour format 
-     * so that 'hh' cannot be greater than 12.
-     */
+   
     if(hh <= 12 && mm <= 59 && ss <= 59)      
     {
         if((strcmp(a,"PM") == 0) || (strcmp(a,"pm") == 0) 
@@ -35,5 +33,4 @@ int main()
     {
         printf("Provide the correct inputs.");
     }
-    return 0;
 }
