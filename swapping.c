@@ -1,6 +1,9 @@
 #include<stdio.h>
+
 void main()
+
 {
+    
       double first, second, temp;
       printf("Enter first number: ");
       scanf("%lf", &first);
@@ -15,5 +18,6 @@ void main()
 
       printf("\nAfter swapping, firstNumber = %.2lf\n", first);
       printf("After swapping, secondNumber = %.2lf", second);
-     
+   
+      
 }
