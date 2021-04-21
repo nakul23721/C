@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+int main()
 {
     int i = 1;
     
@@ -8,5 +8,5 @@ void main()
         printf("%d\n", i);
         ++i;
     }
-    
+   return 0;
 }
