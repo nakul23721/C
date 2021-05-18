@@ -2,7 +2,7 @@
 void main()  
 {  
    int n; 
-   printf("Enter the value of n :");  
+   printf("Enter any value of n :");  
    
    for(int i=1;i<=n;i++)  
    {  
