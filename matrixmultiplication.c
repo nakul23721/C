@@ -1,6 +1,6 @@
 #include<stdio.h>    
 #include<stdlib.h>  
-int main(){  
+void main(){  
 int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;    
 system("cls");  
 printf("enter the number of row=");    
@@ -43,6 +43,5 @@ for(j=0;j<c;j++)
 printf("%d\t",mul[i][j]);    
 }    
 printf("\n");    
-}    
-return 0;  
+}     
 }  
